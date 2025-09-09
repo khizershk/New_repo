@@ -22,4 +22,4 @@ jobs:
           git fetch origin
           git checkout -B prod1
           git reset --hard origin/main
-          git push origin prod1--force
+          git push origin prod1 --force
